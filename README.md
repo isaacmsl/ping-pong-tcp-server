@@ -1,6 +1,6 @@
 # Ping Pong TCP Server
 
-Just a TCPServer can play ping-pong with a TCPClient. The code is an exercise presented on _Computer Networking: A Top-Down Approach_ by Kurose and Ross.
+Just a TCPServer can play ping-pong with a TCPClient. The code is an exercise presented on _Computer Networking: A Top-Down Approach_ by Kurose and Ross (5th edition).
 
 ## How to execute
 
