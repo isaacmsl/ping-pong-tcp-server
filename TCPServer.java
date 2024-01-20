@@ -9,10 +9,12 @@ class TCPServer {
             BufferedReader inFromClient = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
             DataOutputStream outToClient = new DataOutputStream(connectionSocket.getOutputStream());
             String clientSentence= inFromClient.readLine();
-
+            
             if (clientSentence.equalsIgnoreCase("ping")) {
+                System.out.println("Someone ping me!");
                 outToClient.writeBytes("Pong!\n");
             } else {
+                System.out.println("Someone, I wanna play Ping-Pong!");
                 outToClient.writeBytes("Ping?\n");
             }
         }
