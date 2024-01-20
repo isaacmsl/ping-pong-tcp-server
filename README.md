@@ -7,7 +7,7 @@ Just a TCPServer can play ping-pong with a TCPClient. The code is an exercise pr
 1. `$ javac TCPServer`
 1. `$ java TCPServer`
 1. ... Similar for `TCPClient`
-1. Send "ping"
+1. Send "ping" on process executed by `$ java TCPClient`
 1. Pong!
 
 ## Something else
